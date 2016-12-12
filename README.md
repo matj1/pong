@@ -8,3 +8,4 @@ Pro spuštění je potřeba Python (3.5) s modulem pygame.
   - pravá plošina:
     - nahoru: šipka nahoru
     - dolů: šipka dolů
+  - odchod: escape
