@@ -55,7 +55,7 @@ class Ball:
 screen = pygame.display.set_mode((800,600))
 pygame.display.set_caption("pong by matj1")
 
-racket_left=Racket([32,236], [16,128], pygame.K_w, pygame.K_s,"l")
+racket_left=Racket([32,236], [16,128], pygame.K_q, pygame.K_a,"l") #změna ovládání z ws na qa pro colemak
 racket_right=Racket([752,236], [16,128], pygame.K_UP, pygame.K_DOWN,"r")
 ball=Ball([388,288], [24,24], [300,0])
 
